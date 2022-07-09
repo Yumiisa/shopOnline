@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> online ecommerce project </title>
     <link rel="stylesheet" href="main.css">
-<script src="https://kit.fontawesome.com/dc79af135a.js" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dc79af135a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <!---------navbar---------------------->
     <nav class="navbar">
         <div class="navbar-center">
-        <span class="nav-icon"></span>
-        <i class="fa-solid fa-bars"></i>
-        <img src="./images/logo.svg" alt="Store logo">
-        <div class="cart-btn">
-            <span class="nav-icon"><i class="fa-solid fa-cart-plus"></i>
-            </span>
-           <div class="cart-item">0</div>
-        </div>
+            <span class="nav-icon"></span>
+            <i class="fa-solid fa-bars"></i>
+            <img src="./images/logo.svg" alt="Store logo">
+            <div class="cart-btn">
+                <span class="nav-icon"><i class="fa-solid fa-cart-plus"></i>
+                </span>
+                <div class="cart-item">0</div>
+            </div>
         </div>
     </nav>
     <!-------------nabvbar ends-->
@@ -33,7 +35,65 @@
         </div>
     </header>
     <!-----end hero-->
+    <!------products-->
+    <section class="products">
+        <div class="section-title">
+            <h2>our products</h2>
+        </div>
+        <div class="product-center">
+            <!---single product-->
+            <!--
+            <article class="product">
+                <div class="image-container">
+                    <img src="./images/product-1.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fa-solid fa-cart-arrow-down"></i>Add to cart
+                    </button>
+                </div>
+                <h3>queen bed</h3>
+                <h4>$16.00</h4>
 
-<script src="index.js"></script>   
+            </article>
+        -->
+            <!---end of single product-->
+        </div>
+
+    </section>
+    <!------end of products-->
+    <!--------cart-->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fa-solid fa-square-xmark"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+            <!----cart item-->
+            <div class="cart-items">
+                <img src="./images/product-1.jpeg" alt="product">
+                <div>
+                    <h4>queen bed</h4>
+                    <h5>19.00</h5>
+                    <span class="remove-item">remove</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chevron-up"></i>
+                    <p class="item-amount">1</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                </div>
+            </div>
+            <!----end of cart item-->
+            <div class="cart-footer">
+                <h3>Your total : $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+        
+    </div>
+    <!--------end of cart-->
+
+    <script src="index.js"></script>
 </body>
+
 </html>
