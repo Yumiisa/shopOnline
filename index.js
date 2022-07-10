@@ -29,6 +29,7 @@ class Products{
           return {title,price,id,image}
         })
         return products
+        
     }
     catch(error){
 

@@ -80,6 +80,15 @@
                 "image":{"fields":{"file":{"url":"./images/product-9.jpeg"}}}
             }
 
+        },
+        {
+            "sys":{"id":"10"},
+            "fields":{
+                "title":"Multi-purpose shelves",
+                "price":60.99,
+                "image":{"fields":{"file":{"url":"./images/product-10.webp"}}}
+            }
+
         }
     ]
 }
