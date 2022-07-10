@@ -94,7 +94,7 @@
             "sys":{"id":"11"},
             "fields":{
                 "title":"Bed and Beddings",
-                "price":60.99,
+                "price":100.99,
                 "image":{"fields":{"file":{"url":"./images/product-11.jpeg"}}}
             }
 
