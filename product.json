@@ -89,6 +89,15 @@
                 "image":{"fields":{"file":{"url":"./images/product-10.webp"}}}
             }
 
+        },
+        {
+            "sys":{"id":"11"},
+            "fields":{
+                "title":"Bed and Beddings",
+                "price":60.99,
+                "image":{"fields":{"file":{"url":"./images/product-11.jpeg"}}}
+            }
+
         }
     ]
 }
