@@ -226,6 +226,12 @@ image-container:hover .product-img{
     color: var(--primaryColor);
     cursor: pointer;
 }
+.showCart{
+    transform:translateX(0) ;
+}
+.transparentBcg{
+    visibility: visible;
+}
 /*------------end of cart Item--------------*/
 /*----------cart footer----------------*/
 .cart-footer{
