@@ -71,6 +71,15 @@
                 "image":{"fields":{"file":{"url":"./images/product-8.jpeg"}}}
             }
 
+        },
+        {
+            "sys":{"id":"9"},
+            "fields":{
+                "title":"chair",
+                "price":50.99,
+                "image":{"fields":{"file":{"url":"./images/product-9.jpeg"}}}
+            }
+
         }
     ]
 }
